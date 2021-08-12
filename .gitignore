@@ -3,3 +3,7 @@
 
 #例外，下列文件不遵循规则，需要通过git提交
 !README.md
+
+#忽略draft文件和draft文件的图片文件夹
+draft_*
+draft*/*
