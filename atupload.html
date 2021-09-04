@@ -201,6 +201,87 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 @include-when-export url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
 
 /* cyrillic-ext */
@@ -1039,158 +1120,11 @@ footer {
 
 
 
-mjx-container[jax="SVG"] {
-  direction: ltr;
-}
-
-mjx-container[jax="SVG"] > svg {
-  overflow: visible;
-  min-height: 1px;
-  min-width: 1px;
-}
-
-mjx-container[jax="SVG"] > svg a {
-  fill: blue;
-  stroke: blue;
-}
-
-mjx-assistive-mml {
-  position: absolute !important;
-  top: 0px;
-  left: 0px;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 1px 0px 0px 0px !important;
-  border: 0px !important;
-  display: block !important;
-  width: auto !important;
-  overflow: hidden !important;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-mjx-assistive-mml[display="block"] {
-  width: 100% !important;
-}
-
-mjx-container[jax="SVG"][display="true"] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax="SVG"][display="true"][width="full"] {
-  display: flex;
-}
-
-mjx-container[jax="SVG"][justify="left"] {
-  text-align: left;
-}
-
-mjx-container[jax="SVG"][justify="right"] {
-  text-align: right;
-}
-
-g[data-mml-node="merror"] > g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node="merror"] > rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node="mtable"] > g > svg {
-  overflow: visible;
-}
-
-[jax="SVG"] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax="SVG"] mjx-tool > mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool > mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node="maction"][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
-  stroke-width: 3;
-}
-
-g[data-mml-node="xypic"] path {
-  stroke-width: inherit;
-}
-
-.MathJax g[data-mml-node="xypic"] path {
-  stroke-width: inherit;
-}
-mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
-							stroke-width: 0;
-						}
-</style><title>index</title>
+</style><title>atupload</title>
 </head>
 <body class='typora-export os-windows typora-export-show-outline typora-export-collapse-outline'><div class='typora-export-content'>
-<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1 outline-item-open"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#我的文档">我的文档</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#目录">目录：</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#2021年9月">2021年9月</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#undefined">#### 离线下载服务器获取文件到本地的功能实现</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#我的数学笔记">我的数学笔记</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#2021年8月">2021年8月</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#如何使用ffmpeg处理视频">如何使用ffmpeg处理视频</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#2021年7月">2021年7月</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#git的简易使用">git的简易使用</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#2021年5月">2021年5月</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#拆解remplace函数">拆解remplace函数</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#一条keeling曲线告诉了人们多少事情">一条keeling曲线告诉了人们多少事情？</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#生态学与地学研究中的进制换算">生态学与地学研究中的进制换算</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#如何使用文件管理器total-commander">如何使用文件管理器Total Commander？</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#omegat使用指南">OmegaT使用指南<span>	</span></a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#普通生态学3作业建模分析和代码说明">普通生态学3作业：建模分析和代码说明</a></div><ul class="outline-children"></ul></li></ul></li></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#写作计划">写作计划</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#个人介绍">个人介绍</a></div><ul class="outline-children"></ul></li></ul></li></div></div><div id='write'  class=''><h1 id='我的文档'><span>我的文档</span></h1><h2 id='目录'><span>目录：</span></h2><h3 id='2021年9月'><span>2021年9月</span></h3><h4 ><a href='atupload.html'><span>离线下载服务器获取文件到本地的功能实现</span></a></h4><p><span>2021-9-4</span></p><p><span>一个项目的总结笔记。整理了过程中学到的知识，备查。</span></p><h4 id='我的数学笔记'><a href='math.html'><span>我的数学笔记</span></a></h4><p><span>2021-9-1</span></p><p><span>发现自己老是把数学的基础知识给忘掉，这里把经常用到，又经常忘记的东西整理一下，方便自己查。</span></p><h3 id='2021年8月'><span>2021年8月</span></h3><h4 id='如何使用ffmpeg处理视频'><a href='note-for-ffmpeg.html'><span>如何使用ffmpeg处理视频</span></a></h4><p><span>2021-8-25</span></p><p><span>本文会结合实例，介绍如何使用ffmpeg进行视频格式转换（mkv -&gt; mp4），进行视频压缩，进行视频片段截取，进行字幕烧录。</span></p><h3 id='2021年7月'><span>2021年7月</span></h3><h4 id='git的简易使用'><a href='git.html'><span>git的简易使用</span></a></h4><p><span>2021-7-28</span></p><p><span>好久没有写博客了。简单更一下自己是如何用git做数据分析中的代码版本控制的。方便自己回头参考。</span></p><h3 id='2021年5月'><span>2021年5月</span></h3><h4 id='拆解remplace函数'><a href='remplace.html'><span>拆解remplace函数</span></a></h4><p><span>2021-5-30</span></p><p><span>分析了陆面过程模型上机课上老师使用的修改配置文件的函数。这个函数能够自动修改配置文件中的选项，使得ORCHIDEE模型能够连续运转。</span></p><h4 id='一条keeling曲线告诉了人们多少事情'><a href='keeling_curve.html'><span>一条keeling曲线告诉了人们多少事情？</span></a></h4><p><span>2021-5-29</span></p><p><span>介绍了Keeling曲线及其历史，并介绍相关的研究发现。</span></p><h4 id='生态学与地学研究中的进制换算'><a href='baseconvention.html'><span>生态学与地学研究中的进制换算</span></a></h4><p><span>2021-5-29</span></p><p><span>整理了自己在学习过程中困惑的常用进制转换，给了一个参考网站。</span></p><h4 id='如何使用文件管理器total-commander'><a href='totalcommander.html'><span>如何使用文件管理器Total Commander？</span></a></h4><p><span>2021-5-28</span></p><p><span>Total commander是完全能够替代win本身的文件管理器，而且使用体验更好，更快速更高效。本文按照我的使用场景梳理了使用TC的技巧。</span></p><h4 id='omegat使用指南'><a href='omegat.html'><span>OmegaT使用指南</span></a><span>	</span></h4><p><span>2021-5-28 </span></p><p><span>如何使用辅助翻译软件OmegaT来快速完成翻译稿？</span></p><h4 id='普通生态学3作业建模分析和代码说明'><a href='model.html'><span>普通生态学3作业：建模分析和代码说明</span></a></h4><p><span>2021-5-27</span></p><p><span>课程作业中我负责了代码部分，文档中包括我对题目的分析和解题，以及这部分代码的思路说明。</span></p><p><span>  </span></p><h2 id='写作计划'><span>写作计划</span></h2><ul><li class='md-task-list-item task-list-item task-list-not-done' ><input type='checkbox' /><p><span>一篇关于季风变化强弱的文章</span></p></li><li class='md-task-list-item task-list-item task-list-not-done' ><input type='checkbox' /><p><span>一篇关于碳交易的文章</span></p></li><li class='md-task-list-item task-list-item task-list-done' ><input type='checkbox' checked/><p><span>一篇关于keeling曲线的文章（2021-5-29）</span></p></li></ul><p>&nbsp;</p><h2 id='个人介绍'><span>个人介绍</span></h2><p><span>我是一名生态学的大四学生，兴趣方向是全球变化生态学。我对海洋碳循环也很感兴趣，有写过一篇海洋酸化对海洋</span><mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="7.092ex" height="1.97ex" role="img" focusable="false" viewBox="0 -705 3134.6 870.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;"><defs><path id="MJX-2-TEX-N-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"></path><path id="MJX-2-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"></path><path id="MJX-2-TEX-N-4F" d="M56 340Q56 423 86 494T164 610T270 680T388 705Q521 705 621 601T722 341Q722 260 693 191T617 75T510 4T388 -22T267 3T160 74T85 189T56 340ZM467 647Q426 665 388 665Q360 665 331 654T269 620T213 549T179 439Q174 411 174 354Q174 144 277 61Q327 20 385 20H389H391Q474 20 537 99Q603 188 603 354Q603 411 598 439Q577 592 467 647Z"></path><path id="MJX-2-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><use data-c="43" xlink:href="#MJX-2-TEX-N-43"></use><use data-c="61" xlink:href="#MJX-2-TEX-N-61" transform="translate(722,0)"></use><use data-c="43" xlink:href="#MJX-2-TEX-N-43" transform="translate(1222,0)"></use><use data-c="4F" xlink:href="#MJX-2-TEX-N-4F" transform="translate(1944,0)"></use></g></g><g data-mml-node="msub" transform="translate(2722,0)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mpadded"><g data-mml-node="mphantom"></g></g></g></g><g data-mml-node="TeXAtom" transform="translate(9,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mpadded"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-2-TEX-N-33"></use></g></g></g></g></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi data-mjx-auto-op="false">CaCO</mi></mrow><msub><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mpadded width="0"><mphantom><mi>X</mi></mphantom></mpadded></mrow></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mpadded height="0"><mn>3</mn></mpadded></mrow></mrow></msub></mrow></math></mjx-assistive-mml></mjx-container><script type="math/tex">\ce{CaCO3}</script><span>体系影响的科普文。最近的研究方向是青藏高原的物候对气候变化的响应。因为想要培养自己输出一些知识的能力，所以在看文章的时候就会写一些东西出来，帮助自己归档回忆，能帮助学弟学妹了解相关的知识更好了。我力求科学，但难免会有疏漏，会有认识不到位的地方，欢迎通过邮件与我联系。了解更多关于我的事情，请看</span><a href='personalstatement.html'><span>我与生态学</span></a></p><p><span>我对linux操作系统很感兴趣，但其实一直是门外汉的水平，只是CLI比较熟练。shell script还在学习的过程中，各种命令也慢慢在学。刚好研究生阶段会用到linux，能够让自己的兴趣辅助自己的工作还是很开心的！所以也会写一些跟linux啊、编程相关的小文章。</span></p><p><span>网站很简单，本来我是用WordPress的，但它对markdown支持太差，数学公式支持也不好，被我放弃了，直接用typora生成的html文件组了个静态的网站，凑合用哈，形式无所谓，内容重要。我会想办法优化网站的使用体验的，比如加个“回到首页”功能啥的，但优先级肯定没有写一些新的小文章高。</span></p><p><span>我的邮箱地址：</span><a href='mailto:cnqdcyq@163.com' target='_blank' class='url'>cnqdcyq@163.com</a><span>。</span></p><p>&nbsp;</p></div></div>
+<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1 outline-item-open"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#离线下载服务器获取文件到本地的功能实现">离线下载服务器获取文件到本地的功能实现</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#清单">清单</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#如何使用transmission-remote获取任务信息">如何使用transmission-remote获取任务信息</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#怎样从脚本中隐藏密码">怎样从脚本中隐藏密码</a></div><ul class="outline-children"></ul></li></ul></li></div></div><div id='write'  class=''><h1 id='离线下载服务器获取文件到本地的功能实现'><span>离线下载服务器获取文件到本地的功能实现</span></h1><p><span>By: Sid</span>
+<span>Date: 2021/9/4</span></p><p><span>		</span><span>最近在自己的服务器上配置了bt离线下载，想要实现自动获取下载的文件到客户端的功能。过程中学到了很多，在此总结一下方便以后回顾。</span></p><p><span>项目地址</span><a href='https://gitee.com/sid886/my-shell-scripts/blob/master/atupload.sh'><span>atupload.sh · sid886/myShellScripts - 码云 - 开源中国 (gitee.com)</span></a></p><h2 id='清单'><span>清单</span></h2><p><span>实现该功能使用的工具：</span></p><ul><li><span>transmission（离线下载）</span></li><li><span>cadaver（webdav客户端）</span></li><li><span>坚果云（提供webdav）</span></li><li><span>bash script</span></li></ul><p><span>这个过程中我学习到的知识</span></p><ul><li><a href='#怎样从脚本中隐藏密码'><span>怎样从脚本文件中隐藏密码</span></a></li><li><span>使用head, tail, gawk处理日志文本</span></li><li><span>怎样判断文件是否发生更改</span></li><li><span>怎样使用crontab</span></li><li><span>怎样从文本创建shell数组变量</span></li><li><span>使用nohup在离线后继续执行任务</span></li></ul><h2 id='如何使用transmission-remote获取任务信息'><span>如何使用transmission-remote获取任务信息</span></h2><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="bash"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="bash"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 20px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># 显示所有的任务信息</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; transmission-remote <span class="cm-attribute">--auth</span> &lt;username&gt;:&lt;password&gt; <span class="cm-attribute">-l</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; transmission-remote <span class="cm-attribute">--auth</span> sidpku:123456 <span class="cm-attribute">-l</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 65px;"></div><div class="CodeMirror-gutters" style="display: none; height: 65px;"></div></div></div></pre><p><span>显示的信息中，比较重要的有任务的大小、完成情况、任务的名称</span></p><blockquote><p><span>&lt;</span><span>X</span><span>&gt;</span><span>表示必须填写，如</span><span>&lt;</span><span>username</span><span>&gt;</span><span>就对应着</span><code>sidpku</code><span>，连</span><span>&lt;</span><span>&gt;</span><span>一起替换掉。</span></p><p><span>[X]表示可选填写，可以不要。</span></p><p><span>代码中每行第一个</span><code>&gt;</code><span>是命令提示符，不要输入到代码中。</span></p></blockquote><h2 id='怎样从脚本中隐藏密码'><span>怎样从脚本中隐藏密码</span></h2><p><span>最简单的方法就是把密码放到别的地方。然后通过读取文件来获取。</span></p><p><span>我把密码和账号文件放在自己创建的</span><code>$HOME/.mypasswd/</code><span>文件夹下面，</span><code>.&lt;应用名称&gt;.username</code><span>储存账号，</span><code>.&lt;应用名称&gt;.passwd</code><span>储存密码。并且要修改权限使得只有自己能够读取。</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="bash"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="bash"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 20.0001px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-builtin">echo</span> <span class="cm-string">"&lt;username&gt;"</span> &gt; <span class="cm-string">"</span><span class="cm-def">$HOME</span><span class="cm-string">/.mypasswd/.&lt;applicant&gt;.username"</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-builtin">echo</span> <span class="cm-string">"&lt;passwd&gt;"</span> &gt; <span class="cm-string">"</span><span class="cm-def">$HOME</span><span class="cm-string">/.mypasswd/.&lt;applicant&gt;.passwd"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-builtin">chmod</span> <span class="cm-number">600</span> <span class="cm-def">$HOME</span>/.mypasswd/*</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">#举例</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-builtin">echo</span> sidpku &gt; <span class="cm-string">"</span><span class="cm-def">$HOME</span><span class="cm-string">/.mypasswd/.transmission.username"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-builtin">echo</span> <span class="cm-number">123456</span> &gt; <span class="cm-string">"</span><span class="cm-def">$HOME</span><span class="cm-string">/.mypasswd/.transmission.passwd"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; chomod <span class="cm-number">600</span> <span class="cm-def">$HOME</span>/.mypasswd/*</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 151px;"></div><div class="CodeMirror-gutters" style="display: none; height: 151px;"></div></div></div></pre><p><span>当要使用账号和密码的时候，就通过读取文件来储存到变量中。</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="bash"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="bash"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 20.0001px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-def">USERNAME</span><span class="cm-operator">=</span><span class="cm-quote">$(cat "</span><span class="cm-def">$HOME</span><span class="cm-quote">/.mypasswd/.transmission.username")</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; <span class="cm-def">PASSWD</span><span class="cm-operator">=</span><span class="cm-quote">$(cat ""</span><span class="cm-def">$HOME</span><span class="cm-quote">/.mypasswd/.transmission.passwd")</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># 以transmission-remote举例，要输入账号密码才能执行list(-l)操作</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">&gt; transmission-remote <span class="cm-attribute">--auth</span> <span class="cm-string">"</span><span class="cm-def">$USERNAME</span><span class="cm-string">"</span>:<span class="cm-string">"</span><span class="cm-def">$PASSWD</span><span class="cm-string">"</span> <span class="cm-attribute">-l</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 86px;"></div><div class="CodeMirror-gutters" style="display: none; height: 86px;"></div></div></div></pre><blockquote><p><span>这是最简单的做法，还可以使用openssl来对密码加密，增加保存密码文件的安全性，提高数据传输过程中的安全性。具体可以参考：</span><a href='https://www.howtogeek.com/734838/how-to-use-encrypted-passwords-in-bash-scripts/'><span>How to Use Encrypted Passwords in Bash Scripts</span></a></p></blockquote><p><span>更新中...</span></p></div></div>
 
 <script>(function(){var e=document.body.parentElement,t=[],n=null,i=document.body.classList.contains("typora-export-collapse-outline"),r=function(e,t,n){document.addEventListener(e,function(e){if(!e.defaultPrevented)for(var i=e.target;i&&i!=this;i=i.parentNode)if(i.matches(t)){!1===n.call(i,e)&&(e.preventDefault(),e.stopPropagation());break}},!1)};function o(){return e.scrollTop}r("click",".outline-expander",function(e){var t=this.closest(".outline-item-wrapper").classList;return t.contains("outline-item-open")?t.remove("outline-item-open"):t.add("outline-item-open"),d(),!1}),r("click",".outline-item",function(e){var t=this.querySelector(".outline-label");if(location.hash="#"+t.getAttribute("href"),i){var n=this.closest(".outline-item-wrapper").classList;n.contains("outline-item-open")||n.add("outline-item-open"),c(),n.add("outline-item-active")}});var a,s,l=function(){var e=o();n=null;for(var i=0;i<t.length&&t[i][1]-e<60;i++)n=t[i]},c=function(){document.querySelectorAll(".outline-item-active").forEach(e=>e.classList.remove("outline-item-active")),document.querySelectorAll(".outline-item-single.outline-item-open").forEach(e=>e.classList.remove("outline-item-open"))},d=function(){if(n){c();var e=document.querySelector('.outline-label[href="#'+(CSS.escape?CSS.escape(n[0]):n[0])+'"]');if(e)if(i){var t=e.closest(".outline-item-open>ul>.outline-item-wrapper");if(t)t.classList.add("outline-item-active");else{for(var r=(e=e.closest(".outline-item-wrapper")).parentElement.closest(".outline-item-wrapper");r;)r=(e=r).parentElement.closest(".outline-item-wrapper");e.classList.add("outline-item-active")}}else e.closest(".outline-item-wrapper").classList.add("outline-item-active")}};window.addEventListener("scroll",function(e){a&&clearTimeout(a),a=setTimeout(function(){l(),d()},300)});var u=function(){s=setTimeout(function(){!function(){t=[];var e=o();document.querySelector("#write").querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(n=>{var i=n.getAttribute("id");t.push([i,e+n.getBoundingClientRect().y])})}(),l(),d()},300)};window.addEventListener("resize",function(e){s&&clearTimeout(s),u()}),u()})();</script></body>
 </html>
