@@ -7,3 +7,6 @@
 #忽略draft文件和draft文件的图片文件夹
 draft_*
 draft*/*
+
+#忽略.py文件
+*.py
